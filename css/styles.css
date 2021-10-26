@@ -6,6 +6,7 @@
   --color-body: #918ca4;
 }
 
+/*------------ TYPOGRAPHY ---------------*/
 html {
   /* 62.5% of 16px = 10px 
   default font-size of HTML elements are 16px*/
@@ -59,3 +60,40 @@ is 1024px*/
   }
 }
 /*Media*/
+/*------------ TYPOGRAPHY ---------------*/
+
+/*------------ LINKS ---------------*/
+a {
+  text-decoration: none; /*It will remove the underline line below links*/
+}
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase; /*UPPER CASE*/
+  font-size: 2rem; /*20px*/
+  font-weight: bold;
+}
+
+/* Adding the arrow after the text */
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.15s; /*The arrow moves to the left in 0.15s*/
+}
+/* Adding the arrow after the text */
+
+/*When we hover on the link the following states comes in to play*/
+.link-arrow:hover::after {
+  margin-left: 12px; /*When we hover on the link the arrow comes to 12px*/
+}
+/*When we hover on the link the following states comes in to play*/
+
+/*This media query will be applied to the desktops*/
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
+  }
+}
+/*This media query will be applied to the desktops*/
+
+/*------------ LINKS ---------------*/
