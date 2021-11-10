@@ -1,0 +1,30 @@
+.list {
+  list-style: none;
+  padding-left: 0; /*Deletes the padding left applied by the browsers*/
+  color: var(--color-headings);
+}
+
+/* Sets the list horizentally */
+.list--inline .list__item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+/* Sets the list horizentally */
+
+/* Adding the green tick next to the list's items */
+.list--tick {
+  list-style-image: url(../images/tick.svg);
+  padding-left: 3rem;
+}
+
+.list--tick .list__item {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+/* Adding the green tick next to the list's items */
+
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    padding-left: 0;
+  }
+}

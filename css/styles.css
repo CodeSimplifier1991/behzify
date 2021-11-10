@@ -5,3 +5,11 @@
   --color-headings: #1b0760;
   --color-body: #918ca4;
 }
+
+html {
+  font-size: 62.5%; /*Equals to 10px*/
+}
+
+h1 {
+  font-size: 2rem;
+}
