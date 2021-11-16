@@ -1,0 +1,42 @@
+.input {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  color: var(--color-headings); /*The input txt has the same color as heading*/
+  font-size: 2rem;
+  outline: 0; /*When input has the focus, the border won't have any color added by the browser*/
+  padding: 1.5rem 3.5rem;
+}
+
+/* It will change the txt of the placeholder */
+::placeholder {
+  color: #cdcbd7;
+}
+/* It will change the txt of the placeholder */
+
+.input-group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+}
+
+/* Applys to inputs inside the input-group class*/
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+/* Applys to inputs inside the input-group */
+
+/* Applys to buttons inside input-group class */
+.input-group .btn {
+  margin: 4px;
+}
+/* Applys to buttons inside input-group class */
+
+/* Apply the style to screens widther than 1024px */
+@media screen and (min-width: 1024px) {
+  .input {
+    font-size: 1.5rem;
+  }
+}
+/* Apply the style to screens widther than 1024px */
