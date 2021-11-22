@@ -1,0 +1,49 @@
+.plan__name {
+  color: white;
+  margin: 0; /*Removes the margin applied by h3*/
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.plan__price {
+  font-size: 6rem;
+}
+
+.plan__billing-cycle {
+  font-size: 2.4rem;
+  font-weight: 300;
+  opacity: 0.8; /*It transparents the text*/
+  margin-right: 1rem;
+}
+
+.plan__description {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px; /*Create space between the letters*/
+  display: block; /*Moves the description into a new line*/
+}
+
+/* Gives bottom margin to the lists items*/
+.plan .list__item {
+  margin-bottom: 2rem;
+}
+
+/* Media Querey applies for screens over 1024px */
+@media screen and (min-width: 1024px) {
+  .plan__name {
+    font-size: 1.4rem;
+  }
+
+  .plan_price {
+    font-size: 5rem;
+  }
+
+  .plan__billing-cycle {
+    font-size: 1.6rem;
+  }
+
+  .plan__description {
+    font-size: 1.7rem;
+  }
+}
+/* Media Querey applies for screens over 1024px */

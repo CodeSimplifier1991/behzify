@@ -1,0 +1,35 @@
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  /*Horizental, Vertical, Soften the shadow, spread the shadow, color*/
+  overflow: hidden;
+}
+
+/*Card header & body style*/
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+/*Card header & body style*/
+
+/*If we have an element with class of
+card--primary,
+the hedader of that card
+needs to have the following style */
+.card--primary .card__header {
+  background: var(--color-primary);
+  color: white;
+}
+
+.card--secondary .card__header {
+  background: var(--color-secondary);
+  color: white;
+}
+
+/* When we have a secondary card class
+and the card has the class of 
+badge--secondary
+the rule below applies */
+.card--secondary .badge--secondary {
+  background: #02cdf1;
+}
