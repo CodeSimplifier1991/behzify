@@ -28,6 +28,24 @@
   margin-bottom: 2rem;
 }
 
+/* If we have an element called plan--popular 
+the parent has to accept the following rules*/
+.plan--popular .card__header {
+  position: relative;
+}
+
+/* It handles the popular badge */
+.plan--popular .card__header::before {
+  content: url(../images/popular.svg);
+  width: 40px;
+  display: inline-block; /*BcZ the img is inline element,
+  the display would be inline-block to accept the width*/
+  position: absolute;
+  top: -6px; /*top edge of the badge sets to top edge of the parent*/
+  right: 5%;
+}
+/* It handles the popular badge */
+
 /* Media Querey applies for screens over 1024px */
 @media screen and (min-width: 1024px) {
   .plan__name {
