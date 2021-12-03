@@ -1,0 +1,42 @@
+/* Style the structure */
+.callout {
+  padding: 4rem;
+  border-radius: 5px;
+}
+/* Style the structure */
+
+.callout--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.callout__heading {
+  color: #fff;
+  margin-top: 0; /*removes the top margin added by the heading element*/
+  font-size: 3rem;
+}
+
+.callout .btn {
+  justify-self: center; /*This prop applys to a grid element - Horizental*/
+  align-self: center; /*Handles the element's position Vertically*/
+}
+
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /*It evens out the space the column took*/
+  .callout .grid1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+
+  .callout .btn {
+    justify-self: start;
+    margin-left: 0 2rem;
+  }
+}

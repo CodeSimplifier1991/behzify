@@ -55,6 +55,11 @@
   color: #fff;
 }
 
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 /* Adjusting the style for desktops */
 @media screen and (min-width: 1024px) {
   .btn {
