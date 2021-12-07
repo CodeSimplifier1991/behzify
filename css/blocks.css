@@ -1,0 +1,35 @@
+.block {
+  --padding-vertical: 6rem;
+  padding: var(--padding-vertical) 2rem; /*Vert Hori*/
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background: #000;
+  color: #7b858b;
+}
+
+/* In block--dark if we have an 
+element with class of 
+block__heading, the text should be white */
+.block--dark .block__heading {
+  color: #fff;
+}
+
+/* It curves the heading section */
+.block--skewed-right {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+}
+
+.block--skewed-left {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}

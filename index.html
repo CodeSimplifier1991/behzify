@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/testimonials.css" />
     <link rel="stylesheet" href="css/callouts.css" />
     <link rel="stylesheet" href="css/collapsible.css" />
+    <link rel="stylesheet" href="css/blocks.css" />
     <!-- Stylesheets -->
   </head>
 
@@ -41,6 +42,36 @@
     <!-- h${Heading $}*3, creates 3 heading-->
     <h1>Online courses</h1>
     <!-- h${Heading $}*3, creates 3 heading -->
+
+    <!-- Block elements -->
+    <section class="block container">
+      <header class="block__header">
+        <h2 class="block__heading">Heading2</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+          quasi!
+        </p>
+      </header>
+    </section>
+    <!-- Block elements -->
+
+    <!--Dark Block elements -->
+    <section class="block block--dark block--skewed-right">
+      <div class="container">
+        <h2 class="block__heading">Heading2</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+          quasi!
+        </p>
+      </div>
+    </section>
+    <!--Dark Block elements -->
+
+    <br />
+
+    <!-- The reason we put the js code at the end is because we 
+  don't want to slow down the render time of the page when it loads -->
+    <script src="js/main.js"></script>
   </body>
   <!-- BODY -->
 </html>

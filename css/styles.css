@@ -22,3 +22,8 @@ html {
 h1 {
   font-size: 2rem;
 }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto; /*Vert Hori*/
+}
