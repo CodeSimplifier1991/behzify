@@ -19,8 +19,16 @@ html {
   font-size: 62.5%; /*Equals to 10px*/
 }
 
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 7rem;
 }
 
 .container {
