@@ -1,0 +1,67 @@
+.nav {
+  background: #000;
+  display: flex; /*Direction is Horizental*/
+  /*space-between, pushes the elements to the edge of the container*/
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  align-items: center; /*It sets the menu bar in the center with Y axel*/
+}
+
+.nav__brand {
+  transform: translateY(5px);
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+
+.nav__item {
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #222;
+}
+
+/*Moving the color down here changes the ancher text color*/
+.nav__item > a {
+  color: #d2d0db;
+  transition: color 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #fff;
+}
+
+/*Effects on the toggle menu in mobile version*/
+.nav__toggler {
+  opacity: 0.5;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+
+/*It brights out the toggle menu icon when is expanded*/
+.nav.collapsible--expanded .nav__toggler {
+  opacity: 1;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
+}
+
+/*Media query effects on the nav bar in desktops*/
+@media screen and (min-width: 768px) {
+  .nav__toggler {
+    display: none;
+  }
+
+  .nav__list {
+    width: auto;
+    display: flex; /*It lays out the items horizentally*/
+    font-size: 1.6rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .nav__item {
+    border: 0;
+  }
+}
+/*media query*/
