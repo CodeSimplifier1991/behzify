@@ -1,0 +1,28 @@
+.domain-block .input-group {
+  /*Offset, offset, bluring, radius, shadow color*/
+  box-shadow: 0 0 30px 20px #e6ebee;
+  border: 0;
+  margin: 4rem auto; /*Vertical Horizental*/
+  max-width: 670px;
+}
+
+/* It handles the domain name & prices */
+.block-domain__prices {
+  display: grid;
+  /*Creates 3 columns of 3 equal fraction*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  font-size: 2rem;
+  font-weight: 600;
+  justify-items: center; /*It used for horizental alignment*/
+  max-width: 700px;
+  margin: 0 auto;
+}
+/* It handles the domain name & prices */
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    /*It auto divides the sections to min 100px or 1 fraction of each size*/
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+}
