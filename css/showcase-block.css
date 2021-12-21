@@ -1,0 +1,31 @@
+/* Showcase Block */
+.block-showcase__image > img {
+  /*In the block called showcase
+    if we have an image 
+    the width of the image needs
+    to be 100% wide*/
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* If we have a block called showcase
+  and in this block we have a grid then
+  the following rules applys */
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .block-showcase__image {
+    /*It moves the item in the column to the right
+    side of the container*/
+    justify-self: end;
+  }
+
+  /*The reason we created this item is 
+  because we want to apply the rule below
+  to the image not the picture*/
+  .block-showcase__image > img {
+    width: auto;
+    max-width: 700px;
+  }
+}

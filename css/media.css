@@ -1,5 +1,7 @@
+/* Media */
 .media {
   display: flex;
+  margin-bottom: 4rem;
 }
 
 .media__title {
