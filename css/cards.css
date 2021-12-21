@@ -26,6 +26,11 @@ needs to have the following style */
   color: white;
 }
 
+/*it used in plan-blocks*/
+.card--primary .badge--primary {
+  background: #126de4;
+}
+
 /* When we have a secondary card class
 and the card has the class of 
 badge--secondary

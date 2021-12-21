@@ -1,3 +1,11 @@
+/*Plans*/
+
+/*In case of hover on the cards for plans
+they will be transformed toward outside by 0.2seconds*/
+.plan {
+  transition: transform 0.2s ease-out;
+}
+
 .plan__name {
   color: white;
   margin: 0; /*Removes the margin applied by h3*/
@@ -28,6 +36,11 @@
   margin-bottom: 2rem;
 }
 
+/*It used in plans-blocks*/
+.plan--popular {
+  transform: scale(1.1); /*The plan card is larger than others*/
+}
+
 /* If we have an element called plan--popular 
 the parent has to accept the following rules*/
 .plan--popular .card__header {
@@ -45,6 +58,15 @@ the parent has to accept the following rules*/
   right: 5%;
 }
 /* It handles the popular badge */
+
+/*If we hover on the plan cards they will be larger*/
+.plan:hover {
+  transform: scale(1.05);
+}
+
+.plan--popular:hover {
+  transform: scale(1.15);
+}
 
 /* Media Querey applies for screens over 1024px */
 @media screen and (min-width: 1024px) {
