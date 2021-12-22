@@ -1,3 +1,4 @@
+/* ------Icon----- */
 .icon {
   width: 40px;
   height: 40px;
@@ -29,3 +30,4 @@
 .icon-container--accent {
   background: var(--color-accent);
 }
+/* ------Icon----- */

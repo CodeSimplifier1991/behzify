@@ -1,3 +1,4 @@
+/* ------Domain Blocks----- */
 .domain-block .input-group {
   /*Offset, offset, bluring, radius, shadow color*/
   box-shadow: 0 0 30px 20px #e6ebee;
@@ -27,3 +28,4 @@
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
+/* ------Domain Blocks----- */

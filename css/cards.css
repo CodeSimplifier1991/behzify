@@ -1,3 +1,4 @@
+/* ------Cards----- */
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
@@ -38,3 +39,4 @@ the rule below applies */
 .card--secondary .badge--secondary {
   background: #02cdf1;
 }
+/* ------Cards----- */

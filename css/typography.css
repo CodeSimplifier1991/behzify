@@ -1,4 +1,4 @@
-/*------------------ Typography -------------------*/
+/* ------Typography----- */
 ::selection {
   background: var(--color-primary);
   color: #fff;
@@ -58,4 +58,4 @@ p {
   }
 }
 /* If the min width size of the screen is 1024 px, the rule will apply */
-/*------------------ Typography -------------------*/
+/* ------Typography----- */

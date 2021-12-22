@@ -1,4 +1,4 @@
-/* Showcase Block */
+/* ------Showcase Block----- */
 .block-showcase__image > img {
   /*In the block called showcase
     if we have an image 
@@ -29,3 +29,4 @@
     max-width: 700px;
   }
 }
+/* ------Showcase Block----- */

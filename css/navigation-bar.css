@@ -1,3 +1,4 @@
+/* ------Navigation Bar----- */
 .nav {
   background: #000;
   display: flex; /*Direction is Horizental*/
@@ -65,3 +66,4 @@
   }
 }
 /*media query*/
+/* ------Navigation Bar----- */

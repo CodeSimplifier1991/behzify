@@ -1,4 +1,4 @@
-/* Feature Blocks */
+/* ------Feature Components----- */
 .feature {
   gap: 4rem 2rem; /*Rows Columns*/
   margin: 12rem 0; /*Vertical Horizental*/
@@ -22,3 +22,4 @@
     order: 2;
   }
 }
+/* ------Feature Components----- */

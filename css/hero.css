@@ -1,5 +1,4 @@
-/*Hero*/
-
+/* ------Hero----- */
 .hero__tagline {
   font-size: 2rem;
   color: #b9c3cf;
@@ -21,3 +20,4 @@
     align-self: center;
   }
 }
+/* ------Hero----- */

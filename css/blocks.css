@@ -1,3 +1,4 @@
+/* ------Blocks----- */
 .block {
   --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem; /*Vert Hori*/
@@ -36,3 +37,4 @@ block__heading, the text should be white */
   padding-bottom: calc(var(--padding-vertical) + 4rem);
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
+/* ------Blocks----- */

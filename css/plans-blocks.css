@@ -1,4 +1,4 @@
-/* Plans Block */
+/* ------Plan Blocks----- */
 .block-plans .grid {
   gap: 8rem 4rem; /*Rows Columns */
 }
@@ -7,3 +7,4 @@
   max-width: 500px;
   margin: 0 auto; /*Vertical Horizental*/
 }
+/* ------Plan Blocks----- */

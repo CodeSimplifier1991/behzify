@@ -1,3 +1,4 @@
+/* ------Inputs----- */
 .input {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
@@ -43,3 +44,4 @@
   }
 }
 /* Apply the style to screens widther than 1024px */
+/* ------Inputs----- */

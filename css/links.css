@@ -1,4 +1,4 @@
-/*----------------------- Links -------------------*/
+/* ------Links----- */
 a {
   /* It will hide the underline line */
   text-decoration: none;
@@ -12,7 +12,7 @@ a {
 }
 
 .link-arrow::after {
-  content: "-->";
+  content: '-->';
   margin-left: 5px;
   transition: margin 0.15s;
 }
@@ -28,4 +28,4 @@ a {
   }
 }
 /* Link media query */
-/*----------------------- Links -------------------*/
+/* ------Links----- */

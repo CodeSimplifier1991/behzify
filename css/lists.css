@@ -1,3 +1,4 @@
+/* ------Lists----- */
 .list {
   list-style: none;
   padding-left: 0; /*Deletes the padding left applied by the browsers*/
@@ -28,3 +29,4 @@
     padding-left: 0;
   }
 }
+/* ------Lists----- */

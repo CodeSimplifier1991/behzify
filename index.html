@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+
+    <!-- SEO metas -->
+    <meta
+      name="description"
+      content="Deploy your website in less than 60 seconds!"
+    />
+    <!-- og = Open Graph -->
+    <meta property="og:title" content="Share my website..." />
+    <meta property="og:description" content="Behzify..." />
+    <meta property="og:type" content="Website" />
+    <meta property="og:image" content="https://" />
+    <meta property="og:url" content="https://behzify.com.au" />
+    <!-- SEO metas -->
+
+    <title>Behzify - Go Online for ONLY $9</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,7 +32,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/typography.css" />
+    <!-- <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/links.css" />
     <link rel="stylesheet" href="css/badges.css" />
     <link rel="stylesheet" href="css/lists.css" />
@@ -40,7 +54,7 @@
     <link rel="stylesheet" href="css/plans-blocks.css" />
     <link rel="stylesheet" href="css/feature-component.css" />
     <link rel="stylesheet" href="css/showcase-block.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/footer.css" /> -->
     <!-- Stylesheets -->
 
     <!-- Adding the animation library -->
@@ -400,11 +414,11 @@
         <picture data-aos="fade-right" class="block-showcase__image">
           <source
             type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp x2"
+            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
           />
           <source
             type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png x2"
+            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
           />
           <img src="images/ipad.png" alt="" />
         </picture>
@@ -566,17 +580,16 @@
       <!-- Main div contains all the collapsible menus -->
       <div class="container grid footer__sections">
         <!-- Section 1 -->
-        <!--Collapsible drop-down menu  -->
         <section class="collapsible collapsible--expanded footer__section">
           <!-- The header section contains the header txt & dropdown icon -->
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <!-- Dropdown icon to expand the menu -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
             <!-- Dropdown icon to expand the menu -->
-          </header>
+          </div>
           <!-- The header section contains the header txt & dropdown icon -->
           <!-- The content of the dropdown menu -->
           <div class="collapsible__content">
@@ -588,21 +601,19 @@
           </div>
           <!-- The content of the dropdown menu -->
         </section>
-        <!--Collapsible drop-down menu  -->
         <!-- Section 1 -->
 
         <!-- Section 2 -->
-        <!--Collapsible drop-down menu  -->
         <section class="collapsible footer__section">
           <!-- The header section contains the header txt & dropdown icon -->
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <!-- Dropdown icon to expand the menu -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
             <!-- Dropdown icon to expand the menu -->
-          </header>
+          </div>
           <!-- The header section contains the header txt & dropdown icon -->
           <!-- The content of the dropdown menu -->
           <div class="collapsible__content">
@@ -614,21 +625,19 @@
           </div>
           <!-- The content of the dropdown menu -->
         </section>
-        <!--Collapsible drop-down menu  -->
         <!-- Section 2 -->
 
         <!-- Section 3 -->
-        <!--Collapsible drop-down menu  -->
         <section class="collapsible footer__section">
           <!-- The header section contains the header txt & dropdown icon -->
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <!-- Dropdown icon to expand the menu -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
             <!-- Dropdown icon to expand the menu -->
-          </header>
+          </div>
           <!-- The header section contains the header txt & dropdown icon -->
           <!-- The content of the dropdown menu -->
           <div class="collapsible__content">
@@ -640,21 +649,19 @@
           </div>
           <!-- The content of the dropdown menu -->
         </section>
-        <!--Collapsible drop-down menu  -->
         <!-- Section 3 -->
 
         <!-- Section 4 -->
-        <!--Collapsible drop-down menu  -->
         <section class="collapsible footer__section">
           <!-- The header section contains the header txt & dropdown icon -->
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
             <!-- Dropdown icon to expand the menu -->
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
             <!-- Dropdown icon to expand the menu -->
-          </header>
+          </div>
           <!-- The header section contains the header txt & dropdown icon -->
           <!-- The content of the dropdown menu -->
           <div class="collapsible__content">
@@ -666,14 +673,13 @@
           </div>
           <!-- The content of the dropdown menu -->
         </section>
-        <!--Collapsible drop-down menu  -->
         <!-- Section 4 -->
 
         <!-- Brand section -->
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.svg" alt="#" />
           <p class="footer__copyright">Copyright 2021 Behzad.P</p>
-        </section>
+        </div>
         <!-- Brand section -->
       </div>
       <!-- Main div contains all the collapsible menus -->
