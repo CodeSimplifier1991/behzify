@@ -6,7 +6,7 @@
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem; /*VERTICAL HORIZENTAL*/
+  padding: 2rem 4vw; /*VERTICAL HORIZENTAL*/
   text-transform: uppercase; /*Converts the button texts to upper case*/
   text-align: center;
   white-space: nowrap; /*In case of shortage of space, the text wouldn't move to the next line*/

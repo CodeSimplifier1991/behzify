@@ -5,6 +5,7 @@
   font-size: 2rem;
   outline: 0; /*When input has the focus, the border won't have any color added by the browser*/
   padding: 1.5rem 3.5rem;
+  width: 0;
 }
 
 /* It will change the txt of the placeholder */
@@ -21,9 +22,11 @@
 
 /* Applys to inputs inside the input-group class*/
 .input-group .input {
-  border: 0;
+  /* Test to fix an issue */
+  border: 1px;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 /* Applys to inputs inside the input-group */
 
