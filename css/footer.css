@@ -1,0 +1,81 @@
+/* Footer */
+.footer {
+  background: #232323;
+}
+
+/* The rule applys to all the hyperlinks in the footer section */
+.footer a {
+  color: #777;
+  transition: color 0.3s;
+}
+
+/* In case of hover on the links the color will change */
+.footer a:hover {
+  color: #fff;
+}
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.footer__section .list {
+  margin: 0; /*It removes the margin added by the browser*/
+}
+
+.footer__heading {
+  text-transform: uppercase; /*Converts the texts to upper case*/
+  font-weight: 600;
+}
+
+.footer__brand {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.footer__brand img {
+  /*TODO: Consider refactoring this & applying it to all images.*/
+  width: 100%;
+  max-width: 230px; /*Max size the logo img can get*/
+}
+
+.footer__copyright {
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: 0.3;
+}
+
+/* Media query for screens greater than 768px */
+@media screen and (min-width: 768px) {
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
+  /* In the footer if we have a collapsible__chevron the rule applys */
+  .footer .collapsible__chevron {
+    display: none; /*It removes the chevron icons*/
+  }
+
+  .footer .collapsible__content {
+    opacity: 1;
+    max-height: 100%;
+  }
+
+  .footer__brand {
+    order: -1; /*It reverses the order of the sections*/
+    margin-top: 1rem;
+  }
+
+  .footer__copyright {
+    font-size: 1.5rem; /*Reduces the size of copyright text*/
+  }
+
+  .footer__section {
+    border: 0; /*It removes the border of the sections*/
+  }
+
+  .footer__heading {
+    font-size: 1.6rem; /*Reduces the size of the headers*/
+  }
+}
+/* Media query for screens greater than 768px */
